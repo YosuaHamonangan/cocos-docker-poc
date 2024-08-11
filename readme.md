@@ -4,10 +4,10 @@ Prepare :
 - Extract project, rename it to `project`
 
 Build image :
-docker build -t <tag> .
+`docker build -t <tag> .`
 
 Run image :
-docker run -it --rm <tag>
+`docker run -it --rm <tag>`
 
 Build Cocos :
-xvfb-run wine ./cocos/CocosCreator.exe --project ./project/ --build "platform=web-desktop;debug=true"
+`xvfb-run wine ./cocos/CocosCreator.exe --project ./project/ --build "platform=web-desktop;debug=true"`
